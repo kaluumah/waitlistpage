@@ -38,7 +38,7 @@ const WaitlistPage = () => {
           <div className="inline-block mb-6">
             <Shield className="w-16 h-16 text-blue-400 animate-pulse" />
           </div>
-          <h1 className="text-5xl font-bold mb-6 animate-slide-up">ZeroKey</h1>
+          <h1 className="text-5xl font-bold mb-6 animate-slide-up">CycleCipher</h1>
           <p className="text-xl text-gray-300 mb-8 animate-slide-up delay-100">
             Zero-touch password security for the modern web
           </p>
