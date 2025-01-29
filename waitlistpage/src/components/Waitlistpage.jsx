@@ -180,7 +180,7 @@ const WaitlistPage = () => {
       {/* Footer */}
       <footer className="border-t border-gray-800 mt-16 py-8">
         <div className="max-w-6xl mx-auto px-4 text-center text-gray-400">
-          <p>© 2025 ZeroKey. All rights reserved.</p>
+          <p>© 2025 CycleCipher. All rights reserved.</p>
         </div>
       </footer>
     </div>
