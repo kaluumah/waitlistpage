@@ -84,7 +84,7 @@ const WaitlistPage = () => {
             <h2 className="text-2xl font-bold mb-4">Securing Your Digital Life</h2>
             <p className="text-gray-300 mb-4">
               In today's interconnected world, password security isn't just an option—it's a necessity. 
-              ZeroKey represents a fundamental shift in how we approach digital security, making 
+              CycleCipher represents a fundamental shift in how we approach digital security, making 
               enterprise-grade protection accessible to everyone.
             </p>
             <p className="text-gray-300">
@@ -121,43 +121,7 @@ const WaitlistPage = () => {
           </div>
         </div>
 
-        {/* Community Feedback Section */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-bold mb-8 text-center">Community Feedback</h2>
-          <div className="max-w-2xl mx-auto">
-            {!submitted && (
-              <div className="bg-gray-800/30 p-6 rounded-xl mb-8">
-                <h3 className="text-lg font-semibold mb-4">Share Your Thoughts</h3>
-                <textarea
-                  value={feedback}
-                  onChange={(e) => setFeedback(e.target.value)}
-                  placeholder="How would ZeroKey help improve your digital security?"
-                  className="w-full px-4 py-2 rounded-lg bg-gray-800 border border-gray-700 text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 mb-4"
-                  rows={4}
-                />
-                <button
-                  onClick={() => setFeedback('')}
-                  className="px-6 py-2 bg-blue-600 rounded-lg font-medium hover:bg-blue-700 transition-colors"
-                >
-                  Submit Feedback
-                </button>
-              </div>
-            )}
-
-            {/* Example Testimonials */}
-            <div className="grid gap-6">
-              <div className="bg-gray-800/30 p-6 rounded-xl">
-                <p className="text-gray-300 mb-2">"Finally, a password manager that thinks for itself. This is exactly what I've been waiting for!"</p>
-                <p className="text-blue-400 font-medium">- Sarah K., Tech Lead</p>
-              </div>
-              <div className="bg-gray-800/30 p-6 rounded-xl">
-                <p className="text-gray-300 mb-2">"The zero-touch approach is revolutionary. It's like having a personal security expert working 24/7."</p>
-                <p className="text-blue-400 font-medium">- Michael R., Business Owner</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
+       
         {/* Final CTA Section */}
         <div className="max-w-3xl mx-auto text-center bg-blue-600/20 p-12 rounded-2xl transform hover:scale-105 transition-all">
           <h2 className="text-3xl font-bold mb-4">Ready to Revolutionize Your Password Security?</h2>
