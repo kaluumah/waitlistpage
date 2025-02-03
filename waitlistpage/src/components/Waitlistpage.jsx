@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Bell, Shield, Zap, Check, Users, ChevronRight, MessageCircle } from 'lucide-react';
 
+
 const WaitlistPage = () => {
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
