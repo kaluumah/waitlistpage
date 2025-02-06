@@ -24,6 +24,21 @@ const WaitlistPage = () => {
     }, 50);
   }, []);
 
+  const submitEmail = async (email) => {
+    try {
+      const response = await fetch('http://localhost:5000/api/waitlist', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email }),
+      });
+      // Handle response
+    } catch (error) {
+      // Handle error
+    }
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setSubmitted(true);
