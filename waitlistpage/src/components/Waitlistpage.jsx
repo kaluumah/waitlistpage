@@ -2,6 +2,21 @@ import React, { useState, useEffect } from 'react';
 import { Bell, Shield, Zap, Check, Users, ChevronRight, MessageCircle } from 'lucide-react';
 
 
+fetch("http://127.0.0.1:5001/api/waitlist", {
+  method: "POST",
+  headers: {
+      "Content-Type": "application/json"
+  },
+  body: JSON.stringify({
+      name: "John Doe",
+      email: "johndoe@example.com"
+  })
+})
+.then(response => response.json())
+.then(data => console.log("Success:", data))
+.catch(error => console.error("Error:", error));
+
+
 const WaitlistPage = () => {
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);

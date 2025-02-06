@@ -8,3 +8,6 @@ CORS(app)  # Enable CORS for all routes
 def join_waitlist():
     # Handle email submission
     return {'status': 'success'}
+
+if __name__ in "_main_":
+    app.run(debug=True)
